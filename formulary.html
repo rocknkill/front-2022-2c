@@ -11,11 +11,12 @@
     <hr>
     <p>Formulario de practica programa CaC 2022</p>
     <hr>
-    <label>Datos a completar</label>
+    <label>Datos a completar:</label>
     <hr>
+    <form action="index.html" method="post"> <!--inicio del formulario-->
         <br>
         <br>
-    <label for="1">Nombre:</label>
+    <label for="1">Nombre:</label><!--label con input-->
     <input type="text" name="nombre" id="1" placeholder="Introduzca su nombre aquí"/>
         <br>
         <br>
@@ -28,13 +29,13 @@
         <br>
         <br>
     <label for="4">Introduzca su contraseña</label>
-    <input type="text" id="4" name="password" placeholder="introduzca su contraseña">
+    <input type="password" id="4" name="password" placeholder="introduzca su contraseña">
         <br>
         <br>
-    <label for="5">Edad</label>
+    <label>Edad</label>
         <br>
         <br>
-    <select name="edad">
+    <select name="edad"><!--menu desplegable con opciones, se coloca tambien el name porque es de tipo key value-->
         <option>13-18</option>
         <option>19-40</option>
         <option>>40</option>
@@ -42,7 +43,9 @@
         <br>
         <br>
         <br>
-    <input type="submit">
+    <button type="reset">Eliminar</button><!--etiqueta button para reset-->
+    <button type="submit">Enviar</button><!--etiqueta button tipo submit, se puede personalizar en lugar de input type=submit-->  
+</form>
 
 </body>
 </html>
