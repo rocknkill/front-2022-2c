@@ -1,0 +1,52 @@
+/*esto es un comentario en css*/
+/*estoy seleccionando todos los H1 del documento para darle el estilo*/
+
+/*
+estructura basica de css
+
+selector {
+    atributo:valor;
+}
+*/
+
+/*selector por tipo*/
+h2 { 
+color: blueviolet;
+font-size: 40px;
+}
+
+
+
+/*selector por id*/
+
+#parrafo_brown{
+    color:brown;
+}
+
+/*selector por clase*/
+/*la misma clase se puede usar para varias etiquetas y los cambios aplican para todas esas etiquetas*/
+.parrafo_azul{
+    color:blue;
+}
+
+.caja{
+    background-color: aqua;
+    height: 75px;
+}
+
+p.caja{ /*este selector por clase solo aplica a los P dentro del div con class caja*/
+    color: black;
+}
+
+.textoItalic p{
+    font-style: italic;
+}
+
+/*colores*/
+/*RGB (red, green, blue)*/
+/*RGB (0, 0, 0) minimo*/
+/*RGB (100, 50, 10)*/
+/*RGB (255, 255, 255)maximo*/
+/*puede ser hexadecimal tambien*/
+/*color: #0000*/
+/*rgb + alpha(0-1), opacidad que se le dan a los textos*/

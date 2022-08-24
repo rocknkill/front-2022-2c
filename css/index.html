@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"><!--forma externa de linkear el archivo de styles css a el html-->
+    <style>
+        /*etiqueta style, es colocar un css dentro del html*/
+        h3{
+            color:red
+        }
+
+
+        /* el asterisco es un selector universal */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        p{
+            color: rgb(99, 50, 10);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+    <h1 style="color:rgb(25, 72, 202)">Clase6 CSS in line</h1><!--sea agrega el atributo style de CSS in line, el in line es prioritario sobre el modo linkeado-->
+    <h2>titulo 2 con css linkeado en el head</h2>
+    <h3>titulo 3 con etiqueta style dentro de html en el head</h3>
+    <p>parrafo</p>
+    <p id="parrafo_brown">parrafo con id para que el color de el selector p del css no aplique a todos</p>
+    <p class="parrafo_azul">parrafo azul con clases</p>
+        </section>
+    <br>
+    <section>
+        <div class="caja"><!--se usan para agrupar informacion, se le puede crear una clase-->
+            <h3>sub titulo</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero recusandae tempore magni dicta accusamus, assumenda repellat nesciunt minus amet, dolorum accusantium consequuntur aliquid, excepturi tempora id deserunt commodi eaque ducimus.</p>
+            <br>
+    
+        </div>
+        <div class="textoItalic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias magni ad soluta iure porro magnam blanditiis, nemo natus nihil rerum sapiente tempore eius nam excepturi enim est sed laboriosam.</p>
+        </div>
+        
+            
+        
+    </section>
+    </main>
+</body>
+</html>
